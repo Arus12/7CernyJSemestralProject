@@ -20,3 +20,5 @@ In this project are two works. First work is ChristmasWork where main goal was d
   - Number of points in triangle
   - Number of points out triangle
 It can looks like this:
+![image](https://user-images.githubusercontent.com/74651859/206859288-3be614b7-c38f-4895-a0a4-3320229a18d3.png)
+
