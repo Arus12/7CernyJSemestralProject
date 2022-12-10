@@ -6,7 +6,7 @@ In this project are two works. First work is ChristmasWork where main goal was d
 * User enter the size of present 
 * User ender color of ribbon
 * Output is christmas present with entered size with entered colored ribbon
-<!-- -->
+##<!-- -->
 
 **It can looks like this:**
 ![image](https://user-images.githubusercontent.com/74651859/206859274-f08577d0-7086-42cc-aa5e-64a115c807a0.png)
