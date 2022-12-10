@@ -6,7 +6,7 @@ In this project are two works. First work is ChristmasWork where main goal was d
 - User enter the size of present 
 - User ender color of ribbon
 - Output is christmas present with entered size with entered colored ribbon
-It looks like this:
+It can looks like this:
 ##Obrázek!!!!!
 
 ### YearWork
@@ -18,3 +18,4 @@ It looks like this:
   - Number of points on triangle
   - Number of points in triangle
   - Number of points out triangle
+It can looks like this:
