@@ -6,7 +6,7 @@ In this project are two works. First work is ChristmasWork where main goal was d
 * User enter the size of present 
 * User ender color of ribbon
 * Output is christmas present with entered size with entered colored ribbon *
-It can looks like this:
+It can looks like this:d
 ##Obrázek!!!!!
 
 ### YearWork
