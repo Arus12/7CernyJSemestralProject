@@ -5,7 +5,7 @@ In this project are two works. First work is ChristmasWork where main goal was d
 ### ChristmasWork
 * User enter the size of present 
 * User ender color of ribbon
-* Output is christmas present with entered size with entered colored ribbon
+* Output is christmas present with entered size with entered colored ribbon *
 It can looks like this:
 ##Obrázek!!!!!
 
