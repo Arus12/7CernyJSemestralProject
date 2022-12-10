@@ -9,12 +9,12 @@ In this project are two works. First work is ChristmasWork where main goal was d
 It looks like this:
 ##Obrázek!!!!!
 
-### YearWork
+### **YearWork**
 - User enter if he want continue
 - User enter points of triagle
 - User enter number of testing points
 - User enter testing points
-- Output:
+- Outputs:
   - Number of points on triangle
   - Number of points in triangle
   - Number of points out triangle
