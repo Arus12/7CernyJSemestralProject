@@ -15,6 +15,6 @@ It looks like this:
 - User enter number of testing points
 - User enter testing points
 - Output:
- - Number of points on triangle
- - Number of points in triangle
- - Number of points out triangle
+  - Number of points on triangle
+  - Number of points in triangle
+  - Number of points out triangle
