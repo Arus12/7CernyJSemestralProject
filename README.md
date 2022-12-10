@@ -1,5 +1,5 @@
 # 7CernyJSemestralProject
-## Základní informace
+## Basic information
 In this project are two works. First work is ChristmasWork where main goal was draw a arbitrarily large present with colored ribbon. The second work is YearWork where main goal was sum of point in triagle, on triagle and out triagle.
 
 ### ChristmasWork
