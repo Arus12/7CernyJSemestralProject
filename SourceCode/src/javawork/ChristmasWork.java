@@ -4,8 +4,6 @@
  */
 package javawork;
 
-import java.util.Scanner;
-
 /**
  * ChristmasWork - Output of this work is christmas present with collored ribbon
  *
