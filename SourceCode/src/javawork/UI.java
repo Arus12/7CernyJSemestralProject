@@ -113,7 +113,7 @@ public class UI {
     }
 
     public static void displayNumberTestedPoints() {
-        System.out.println("Zadej pocet testovanych bodu:");
+        System.out.println("Zadej pocet testovanych bodu (cele cislo):");
     }
 
     public static void displayBadNumberTestedPoints() {
@@ -121,11 +121,11 @@ public class UI {
     }
 
     public static void displayTestedPoints() {
-        System.out.println("Zadej souradnice bodu:");
+        System.out.println("Zadej souradnice x y bodu (cele cislo/desetinne cislo s desetinnou carkou):");
     }
 
     public static void displayPoints() {
-        System.out.println("Zadej vrcholy trojuhelnika:");
+        System.out.println("Zadej souradnice x y tri vrcholu trojuhelnika (cele cislo/desetinne cislo s desetinnou carkou):");
     }
 
     public static void displayOutput(int inTriangle, int onTriangle, int numberTestPoints) {
