@@ -4,14 +4,14 @@
  */
 package javawork;
 
+/**
+ * 7. Sum points in triangle, on triangle and out triangle
+ *
+ * @author Jan Cerny
+ * @version 0.6 12/10/22
+ */
 public class YearWork {
-
-    /**
-     * 7. Sum points in triangle, on triangle and out triangle
-     *
-     * @author Jan Cerny
-     * @version 0.6 12/10/22
-     */
+    
     public static void main() {
         double v[][] = new double[3][2];
         double points[][] = new double[3][2];
