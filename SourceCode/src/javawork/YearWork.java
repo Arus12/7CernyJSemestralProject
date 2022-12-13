@@ -63,12 +63,14 @@ public class YearWork {
     }
 
     /**
-     * @param x1
-     * @param y1
-     * @param x2
-     * @param y2
-     * @param x3
-     * @param y3
+     * Calculate area
+     * 
+     * @param x1 x1
+     * @param y1 y1
+     * @param x2 x2
+     * @param y2 y2
+     * @param x3 x3
+     * @param y3 y3
      * @return area
      */
     static double area(double x1, double y1, double x2, double y2,
@@ -77,15 +79,17 @@ public class YearWork {
                 + x3 * (y1 - y2)) / 2.0);
     }
 
-    /**
-     * @param x1
-     * @param y1
-     * @param x2
-     * @param y2
-     * @param x3
-     * @param y3
-     * @param x
-     * @param y
+     /**
+     * Check if point is in or on triangle
+     * 
+     * @param x1 x1 of triangle
+     * @param y1 y1 of triangle
+     * @param x2 x2 of triangle
+     * @param y2 y2 of triangle
+     * @param x3 x3 of triangle
+     * @param y3 y3 of triangle
+     * @param x x of point
+     * @param y y of point
      * @return true
      * @return false
      */
@@ -98,14 +102,16 @@ public class YearWork {
         return (A == A1 + A2 + A3);
     }
 
-    /**
-     * @param a1
-     * @param a2
-     * @param b1
-     * @param b2
-     * @param c1
-     * @param c2
-     * @param v
+   /**
+     * Calculate vectors for line of triangle
+     * 
+     * @param a1 a1 of triangle
+     * @param a2 a2 of triangle
+     * @param b1 b1 of triangle
+     * @param b2 b2 of triangle
+     * @param c1 c1 of triangle
+     * @param c2 c2 of triangle
+     * @param v Array of vectors
      */
     private static void getV(double a1, double a2, double b1, double b2, double c1, double c2, double v[][]) {
         v[0][0] = b1 - a1;
@@ -119,9 +125,11 @@ public class YearWork {
     }
 
     /**
-     * @param points
-     * @param v
-     * @param testPoints
+     * Check if point is on triangle
+     * 
+     * @param points Array of points of triangle
+     * @param v Array of vectors
+     * @param testPoints Array of points of testing
      * @return Number of points on triangle
      */
     private static int pointOnTriangle(double points[][], double v[][], double testPoints[][]) {
@@ -172,19 +180,21 @@ public class YearWork {
     }
 
     /**
-     * @param v
-     * @param equationXY
-     * @param i
+     * Check if result of equation is infinity
+     * 
+     * @param v Array of vectors of triangle
+     * @param equationXY Equations x and y
+     * @param numberOfVector Number of vector
      * @return true
      * @return false
      */
-    private static boolean isInfinity(double v[][], double equationXY[][], int i) {
+    private static boolean isInfinity(double v[][], double equationXY[][], int numberOfVector) {
         // If in x equation t1 is zero, then left side equation result is zero
-        if (v[i][0] == 0) {
+        if (v[numberOfVector][0] == 0) {
             // if in x equation is left side zero, then x equation has infinity result
             if (equationXY[0][0] - equationXY[0][1] == 0) {
                 // Check, if y equation has result. If yes, then point is on triagnle. IF not, then point is not on triagnle
-                if (v[i][1] == 0) {
+                if (v[numberOfVector][1] == 0) {
                     if (equationXY[1][0] - equationXY[1][1] == 0) {
                         return true;
                     }
@@ -195,9 +205,9 @@ public class YearWork {
         }
 
         // Same as first if, but first check y equation and then x equation
-        if (v[i][1] == 0) {
+        if (v[numberOfVector][1] == 0) {
             if (equationXY[1][0] - equationXY[1][1] == 0) {
-                if (v[i][0] == 0) {
+                if (v[numberOfVector][0] == 0) {
                     if (equationXY[0][0] - equationXY[0][1] == 0) {
                         return true;
                     }
