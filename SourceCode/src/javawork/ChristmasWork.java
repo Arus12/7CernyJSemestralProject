@@ -26,8 +26,10 @@ public class ChristmasWork {
     }
 
     /**
-     * @param size
-     * @param sColor
+     * Generate present
+     *
+     * @param size Size of present
+     * @param sColor Color in string
      */
     public static void Present(int size, String sColor) {
         int rowRibbon = (size / 2) - 3;
@@ -77,12 +79,13 @@ public class ChristmasWork {
         System.out.printf(present);
     }
 
-    /**
+   /**
+     * Generate ribbon for present
      *
-     * @param size
-     * @param spacesStart
-     * @param rowRibbon
-     * @param sColor
+     * @param size Size of present
+     * @param spacesStart Spaces before ribbon
+     * @param rowRibbon Number of row for ribbon
+     * @param sColor Color in string
      * @return ribbon of present
      */
     private static String presentRibbon(int size, int spacesStart, int rowRibbon, String sColor) {
